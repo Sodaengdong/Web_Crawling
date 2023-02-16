@@ -3,7 +3,6 @@ from time import sleep
 from bs4 import BeautifulSoup
 #BeautifulSoup 클래스는 웹문서를 파싱하여, 크롤링을 할 수 있게 문서 개체를 생성해준다
 
-#웹페이지에 접근
 options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
