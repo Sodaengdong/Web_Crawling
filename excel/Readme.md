@@ -5,6 +5,6 @@
 - BeautifulSoup : Requests를 이용해 데이터를 요청한 후, HTML 소스 코드를 가져올 수 있다. HTML코드를 인식시켜 원하는 데이터를 선택하고 수집할 수 있는 파싱을 할 수 있도록 함
 (pip install BeautifulSoup)
 
-- Openpyxl: 파이썬에서 엑셀을 다를 수 있음 
+- Openpyxl : 파이썬에서 엑셀을 다를 수 있음 
 (pip install openpyxl)
 
