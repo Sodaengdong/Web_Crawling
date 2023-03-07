@@ -15,4 +15,13 @@ html = BeautifulSoup(raw.text,'html.parser')
 
 container = html.select("div.inner")
 
+for con in container:
+    t = con.select_one("dt.title").text.strip() #제목
+    c = con.select_one("dd.chn").text.strip() #채널
+    h = con.select_one("span.hit").text.strip() #조회수
+    l = con.select_one("span.like").text.strip() #좋아요수
 
+    #sheet 내 각 행에 데이터 추가
+    sheet.append([t,c,h,l])
+
+wd.save("naver_tv.xlsx")
