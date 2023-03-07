@@ -7,7 +7,7 @@ wd = openpyxl.Workbook()
 sheet = wd.active
 
 #데이터프레임 내 header(변수명) 생성
-sheet.append(["제목,", "채널명", "조회수", "좋아요수"])
+sheet.append(["제목", "채널명", "조회수", "좋아요수"])
 
 #데이터 크롤링 과정
 raw = requests.get("https://tv.naver.com/r")
