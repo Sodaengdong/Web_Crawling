@@ -1,5 +1,6 @@
 # selenium-webdriver
-
+# 동적페이지에서 데이터를 크롤링하기 위해 필요한 라이브러리(설치 필요)
+- Selenium : (pip install selenium)
 # Other Installations
 - [Chrome Webdriver](https://chromedriver.chromium.org/downloads)
 # Notice
